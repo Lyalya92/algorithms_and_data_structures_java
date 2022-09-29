@@ -1,9 +1,10 @@
-import lesson3.FindMissedNumber;
+package lesson3;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class FindMissedNumberTest {
-    FindMissedNumber findMissedNumber = new FindMissedNumber();
+public class FindMissedNumberSimpleTest {
+    FindMissedNumberSimple findMissedNumber = new FindMissedNumberSimple();
 
     @Test
     void testSearch() {
